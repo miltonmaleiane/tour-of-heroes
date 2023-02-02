@@ -65,3 +65,6 @@
   .heroes .name {
     align-self: center;
   }
+  .heroes .selected{
+    background-color: rgba(0, 0, 0, 0.713);
+  }
