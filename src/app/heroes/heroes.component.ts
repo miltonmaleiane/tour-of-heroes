@@ -8,7 +8,7 @@ import { HEROES } from '../mock-heroes';
   styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent {
-  heroes = HEROES
+  heroes = HEROES;
   
 
  
