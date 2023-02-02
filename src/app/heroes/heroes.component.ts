@@ -9,7 +9,9 @@ import { HEROES } from '../mock-heroes';
 })
 export class HeroesComponent {
   heroes = HEROES;
-  
+  onSelected(hero:Hero){
+    console.log(hero.name,"selected")
+  }
 
  
 }
